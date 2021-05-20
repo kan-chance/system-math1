@@ -1,0 +1,12 @@
+与えられたデータは写像によって生成された時系列データであることからカオス解析を用いて予測する．
+観測１次元時系列データの非線形時系列解析を行う前に，適切な次元の空間に埋め込む際にに必要な
+埋め込み次元数（パラメータ）を考える．
+
+
+ShonoMacBook-puro:system-math1 s.kanda$ python 1.py
+Traceback (most recent call last):
+  File "1.py", line 5, in <module>
+    ds=ds.astype('float256')
+TypeError: data type "float256" not understood
+ShonoMacBook-puro:system-math1
+このようなエラーが出たため１０桁まで表示できなかった
